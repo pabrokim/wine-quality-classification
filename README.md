@@ -29,12 +29,12 @@ Therefore, white wines with higher alcohol and sulphate levels are more likely t
 
 **Confusion Matrix**
 To further evaluate the model, a confusion matrix on the test set was implemented and revealed the following:
-True Positives (TP): 715 wines correctly classified as high quality
-True Negatives (TN): 54 wines correctly identified as low quality
-False Positives (FP): 173 wines incorrectly labeled as good
-False Negatives (FN): 38 good-quality wines missed
+True Positives (TP): 54 wines correctly classified as high quality
+True Negatives (TN): 715 wines correctly identified as low quality
+False Negatives (FN): 173 wines incorrectly labeled as good
+False Positives (FP): 38 good-quality wines missed
 
-Evidently, the model performs well on identifying high quality wines but is also labelling low quality wine as high quality —suggesting room for improvement. 
+Evidently, the model performs well on identifying low quality wines suggesting bias in predicting not good.
 
 **Conclusion**
 Logistic Regression provided a transparent and interpretable model for wine quality prediction. While simple, it highlighted key chemical drivers of quality—particularly alcohol content, sulphates, and volatile acidity. 
